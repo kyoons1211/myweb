@@ -1,10 +1,72 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    
-  </head>
-  <body>
-    <h1>안녕하세요</h1>
-    <p>반갑습니다</p>
-  </body>
+
+<head>
+    <title>내 웹페이지</title>
+    <meta name="viewport" content="user-scalable=no,initial-scale=1,maximum-scale=1">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            width: 960px;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+
+        #menu {
+            width: 260px;
+            float: left;
+        }
+
+        #section {
+            width: 700px;
+            float: right;
+        }
+
+        li {
+            list-style: none;
+        }
+
+        @media screen and (max-width: 767px) {
+            body {
+                width: auto
+            }
+
+            #title {
+                width: auto;
+                float: none;
+            }
+
+            #section {
+                width: auto;
+                float: none;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div id="title">
+        <ul>
+            <li>메뉴A</li>
+            <li>메뉴B</li>
+            <li>메뉴C</li>
+        </ul>
+    </div>
+    <div id="section">
+        <p>사랑을 잃고 나는 쓰네</p>
+        <p>잘 있거나, 짧았던 밤들아</p>
+        <p>창밖을 떠돌던 겨울안개들아</p>
+        <p>아무것도 모르던 촛불들아, 잘 있거나</p>
+        <p>공포를 기다리던 흰 종이들아</p>
+        <p>망설임을 대신하던 눈물들아</p>
+        <p>잘 있거라, 더 이상 내 것이 아닌 열망들아</p>
+        <p>장님처럼 나 이제 더듬거리며 문을 잠그네</p>
+        <p>가엾은 내 사랑 빈집에 갇혔네</p>
+    </div>
+</body>
+
 </html>
